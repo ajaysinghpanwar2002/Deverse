@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100vw;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    /* border: 10px solid grey; */
+    /* justify-content:start; */
+    /* align-items: center; */
+}
+
+.video {
+    /* border:30px solid black; */
+}
+
+canvas {
+    position: absolute;
+    right: 210px;
+    height: 100%;
+    width: 100%;
+}
+
+#container {
+    /* position:absolute; */
+    background-color: transparent;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* right:re; */
+    height: 100%;
+    width: 600px;
+    margin: 0;
+    padding: 0;
+}
